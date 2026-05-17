@@ -210,19 +210,19 @@ export const certifications = [
     issuer: 'CompTIA',
     name: 'Security+',
     status: 'Active',
-    credly: '',
+    credly: 'https://www.credly.com/badges/8dc72022-ce15-47ec-b7c4-acadd752e297',
   },
   {
     issuer: 'Amazon Web Services',
     name: 'AWS DevOps Engineer Professional',
     status: 'Active',
-    credly: '',
+    credly: 'https://www.credly.com/badges/f1b26fcb-8d1f-4a8a-9914-0f698d7a6bad',
   },
   {
     issuer: 'Amazon Web Services',
     name: 'AWS Solutions Architect Associate',
     status: 'Active',
-    credly: '',
+    credly: 'https://www.credly.com/badges/67847574-4080-4173-89b1-b792afb61f9d',
   },
 ]
 

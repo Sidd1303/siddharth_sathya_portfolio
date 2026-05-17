@@ -96,6 +96,24 @@ export const skills = [
   },
 ]
 
+const competitionImages = {
+  ncaeInvitational: [
+    '/images/competitions/ncae-invitational-1.jpg',
+    '/images/competitions/ncae-invitational-2.jpg',
+    '/images/competitions/ncae-invitational-3.jpg',
+    '/images/competitions/ncae-invitational-4.jpg',
+    '/images/competitions/ncae-invitational-5.jpg',
+    '/images/competitions/ncae-invitational-6.jpg',
+    '/images/competitions/ncae-invitational-7.jpg',
+  ],
+  ncaeRegionals: ['/images/competitions/ncae-regionals.png'],
+  cnyHackathon: [
+    '/images/competitions/cny-hackathon-1.jpg',
+    '/images/competitions/cny-hackathon-2.jpg',
+    '/images/competitions/cny-hackathon-3.jpg',
+  ],
+}
+
 export const competitions = [
   {
     title: 'NCAE Cyber Games National Invitational',
@@ -105,8 +123,7 @@ export const competitions = [
     badge: 'National Level',
     description:
       'Broke national record solving 4 SOC CTF challenges in under 3 minutes among 12 of 120 teams nationally. Every Blue Team VM pre-compromised at start requiring real-time SSH key generation, dynamic password rotation, and custom hardening scripts. Hardware CTF included building Raspberry Pi circuit from scratch.',
-    // e.g. '/images/competitions/ncae-national.jpg'
-    images: [],
+    images: competitionImages.ncaeInvitational,
   },
   {
     title: 'NCAE Cyber Games Midwest Regional',
@@ -116,7 +133,7 @@ export const competitions = [
     badge: '1st Place',
     description:
       'Led 7-member team to 1st place defending live scored infrastructure (SSH, SMB, WWW, SQL, DNS, Router ICMP) while solving CTF challenges across cryptography, malware analysis, reverse engineering, and SOC analysis.',
-    images: [],
+    images: competitionImages.ncaeRegionals,
   },
   {
     title: 'CNY Hackathon Terminal Stack',
@@ -126,7 +143,7 @@ export const competitions = [
     badge: '1st Place',
     description:
       'Won first-ever cybersecurity competition track defending live critical infrastructure against continuous Red Team attacks over 8 hours.',
-    images: [],
+    images: competitionImages.cnyHackathon,
   },
 ]
 
